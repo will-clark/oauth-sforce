@@ -10,7 +10,7 @@
     </parent>
     <groupId>org.willclark</groupId>
     <artifactId>oauth-sforce</artifactId>
-    <version>1.1-RELEASE</version>
+    <version>1.2-RELEASE</version>
     <name>oauth-sforce</name>
     <description>Demo project for Spring Boot</description>
 

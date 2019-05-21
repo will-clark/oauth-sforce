@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+
+  oauth-sforce:
+    image: docker.willclark.org/oauth-sforce:1.0
+    ports:
+      - 8003:8080

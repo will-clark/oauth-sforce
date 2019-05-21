@@ -7,14 +7,14 @@
 
 	<title>Hello Spring Salesforce</title>
 
-	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/design-system/2.9.2/styles/salesforce-lightning-design-system.min.css"/>
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/design-system/2.9.2/styles/salesforce-lightning-design-system.min.css" />
 
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script>
-		$(function() {
-			$.get("/accounts", function(data) {
+		$(function () {
+			$.get("/accounts", function (data) {
 				$("tbody").empty();
-				$.each(data, function(i, account) {
+				$.each(data, function (i, account) {
 					var tr = $("<tr>");
 					tr.append($("<td>").text(account.Id));
 					tr.append($("<td>").text(account.Name));

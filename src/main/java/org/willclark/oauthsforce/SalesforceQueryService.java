@@ -35,6 +35,7 @@ public class SalesforceQueryService {
 
 	@JsonIgnoreProperties(ignoreUnknown = true)
 	private static class QueryResult<T> {
+
 		public List<T> records;
 	}
 

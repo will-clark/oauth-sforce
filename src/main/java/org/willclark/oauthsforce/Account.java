@@ -6,6 +6,7 @@ import lombok.*;
 @JsonIgnoreProperties(ignoreUnknown = true)
 @Data
 public class Account {
+
 	public String Id;
 	public String Name;
 }

@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth
 
 @SpringBootApplication
 @EnableOAuth2Sso
-public class OauthSforceApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OauthSforceApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
